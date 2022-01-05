@@ -7,3 +7,6 @@ sudo apt install cde-desktop x11-apps xinit picom anarchism xsettingsd stalonetr
 
 # dtappgather needs the suid bit set in order to function properly - eventually this will be replaced but today is not that day
 sudo chmod u+s /usr/dt/bin/dtappgather
+
+wget https://raw.githubusercontent.com/digital-pet/cde-utils/main/data/dtlogin.service
+sudo mv dtlogin.service /lib/systemd/system/dtlogin.service
