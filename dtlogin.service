@@ -1,0 +1,8 @@
+[Unit]
+Description=Graphical Login Console
+
+[Service]
+ExecStart=/usr/dt/bin/dtlogin
+
+[Install]
+WantedBy=graphical.target
