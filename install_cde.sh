@@ -10,3 +10,6 @@ sudo chmod u+s /usr/dt/bin/dtappgather
 
 wget https://raw.githubusercontent.com/digital-pet/cde-utils/main/data/dtlogin.service
 sudo mv dtlogin.service /lib/systemd/system/dtlogin.service
+sudo systemctl daemon-reload
+sudo systemctl enable dtlogin
+sudo systemctl set-default graphical.target
