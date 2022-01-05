@@ -13,15 +13,13 @@
 
 # background <color>         # color can be specified as an HTML hex triplet or
                              # as a name from rgb.txt, note that '#' must be quoted
-background "#c6b2a8"
+background "#686f82"
 
 # decorations <decspec>      # set trays window decorations; possible values for
                              # decspec are: all, title, border, none
-decorations all
+decorations border
 
 # display <display name>     # as usual
-
-display "Tray"
 
 # dockapp_mode <mode>        # set dockapp mode, which can be either simple (for
                              # e.g. OpenBox, wmaker for WindowMaker, or none
@@ -36,7 +34,7 @@ fuzzy_edges 0
 
 # geometry <geometry>        # tray's geometry in standard X notation; width and
                              # height are specified in slot_size multiples
-geometry 3x3
+geometry 3x3-5-5
 
 # grow_gravity <gravity>     # one of N, S, E, W, NW, NE, SW, SE; tray will grow
                              # in the direction opposite to one specified by
